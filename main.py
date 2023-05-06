@@ -1,7 +1,7 @@
 # Информационный бот.
 # 2.0 - правила, информация и т.п.
 
-import disnake
+import disnake, os
 from disnake.ext import commands
 
 
