@@ -1,26 +1,20 @@
-# This example requires the 'message_content' privileged intents
+# Информационный бот.
+# 2.0 - правила, информация и т.п.
 
-import os
-import discord
-from discord.ext import commands
+import disnake
+from disnake.ext import commands
 
 
-intents = discord.Intents.default()
-intents.message_content = True
-bot = commands.Bot(command_prefix='!', intents=intents)
+intents = disnake.Intents().all() # выдаем все возможности
 
+# создание бота
+bot = commands.InteractionBot(intents=intents)
+
+# загрузка Когов
+bot.load_extension("cogs.rules")
 
 @bot.event
 async def on_ready():
-    print(f"Logged in as {bot.user}")
-
-@bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
-
-@bot.command()
-async def hello(ctx):
-    await ctx.send("Choo choo! 🚅")
-
+    print(f"{bot.user} is connected!")
 
 bot.run(os.environ["DISCORD_TOKEN"])
