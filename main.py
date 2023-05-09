@@ -12,6 +12,7 @@ bot = commands.InteractionBot(intents=intents)
 
 # загрузка Когов
 bot.load_extension("cogs.rules")
+bot.load_extension("cogs.verify")
 
 @bot.event
 async def on_ready():
