@@ -1,5 +1,6 @@
 import disnake
 from disnake.ext import commands
+from main import bot
 
 class Verify(disnake.ui.View):
     def __init__(self):
