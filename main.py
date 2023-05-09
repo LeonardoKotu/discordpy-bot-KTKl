@@ -7,7 +7,7 @@ from disnake.ext import commands
 
 intents = disnake.Intents().all() # выдаем все возможности
 
-# создание бота
+# создание ботаv
 bot = commands.InteractionBot(intents=intents)
 
 # загрузка Когов
