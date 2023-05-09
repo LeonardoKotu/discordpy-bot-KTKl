@@ -85,7 +85,7 @@ class Menu(disnake.ui.View):
 
 			# 1.1
 			embed3 = disnake.Embed(
-				title="<:blue_white_dot:1101996010634481666> Пункт - **`1.1`**",
+				title="<:blue_white_dot:1101996010634481666> Пункт - **`1.2`**",
 				colour=0x2f3136
 			)
 
@@ -105,7 +105,7 @@ class Menu(disnake.ui.View):
 
 			# 1.2
 			embed4 = disnake.Embed(
-				title="<:blue_white_dot:1101996010634481666> Пункт - **`1.2`**",
+				title="<:blue_white_dot:1101996010634481666> Пункт - **`1.3`**",
 				colour=0x2f3136
 			)
 
@@ -132,7 +132,7 @@ class Menu(disnake.ui.View):
 
 			# 1.3
 			embed5 = disnake.Embed(
-				title="<:blue_white_dot:1101996010634481666> Пункт - **`1.3`**",
+				title="<:blue_white_dot:1101996010634481666> Пункт - **`1.4`**",
 				colour=0x2f3136
 			)
 
@@ -159,7 +159,7 @@ class Menu(disnake.ui.View):
 
 			# 1.4
 			embed6 = disnake.Embed(
-				title="<:blue_white_dot:1101996010634481666> Пункт - **`1.4`**",
+				title="<:blue_white_dot:1101996010634481666> Пункт - **`1.5`**",
 				colour=0x2f3136
 			)
 
