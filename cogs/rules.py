@@ -13,19 +13,19 @@ class Menu(disnake.ui.View):
 		[
 			disnake.SelectOption(
 				label="Общие правила",
-				emoji="<:bubblechat:1104181277516644453>"
+				emoji="<:blue_white_dot:1101996010634481666>"
 			),
 			disnake.SelectOption(
 				label="Голосовые",
-				emoji="<:voice:1104181273087442974>"
+				emoji="<:blue_white_dot:1101996010634481666>"
 			),
 			disnake.SelectOption(
 				label="Виды нарушений",
-				emoji="<:agenda:1104182736081649766>"
+				emoji="<:blue_white_dot:1101996010634481666>"
 			),
 			disnake.SelectOption(
 				label="Снять выбор",
-				emoji="<:xmark:1104181267941032049>"
+				emoji="<:blue_white_dot:1101996010634481666>"
 			)
 		]
 	)
