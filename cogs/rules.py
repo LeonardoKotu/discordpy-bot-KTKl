@@ -360,7 +360,7 @@ class Rules(commands.Cog):
 				colour=0x2f3136
 			)
 
-			embed.set_image(url="https://cdn.discordapp.com/attachments/1100945663283437578/1104051567855927398/2023-05-05_16-26-37.png")
+			embed.set_image(url="https://i.pinimg.com/564x/88/e3/94/88e3941bd4f4b25313f6fbe375114605.jpg")
 
 			await message.channel.send(embeds=[img, embed], view=Menu())
 
