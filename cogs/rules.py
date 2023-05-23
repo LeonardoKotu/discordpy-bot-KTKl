@@ -350,7 +350,7 @@ class Rules(commands.Cog):
 
 			embed = disnake.Embed(
 
-				title = "<:hello_kitty_blue_1:1102702061994397707> Правила сервера Amnesia",
+				title = "<:blue_white_dot:1101996010634481666> Правила сервера Amnesia",
 				description=
 				"""
 				> `::` Мы рекомендуем прочитать *правила*, чтобы сервер был **чистым** и **спокойным**.
