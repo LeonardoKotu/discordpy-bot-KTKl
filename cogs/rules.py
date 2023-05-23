@@ -197,7 +197,7 @@ class Menu(disnake.ui.View):
 
 			# 2.0 - Голсоовые
 			embed7 = disnake.Embed(
-				title="<:white_dot2:1101889261432737844> Пункт - **`2.0`**",
+				title="<:blue_white_dot:1101996010634481666> Пункт - **`2.0`**",
 				colour=0x2f3136
 			)
 
@@ -249,7 +249,7 @@ class Menu(disnake.ui.View):
 
 			# 2.2 - Голсоовые
 			embed9 = disnake.Embed(
-				title="<:white_dot2:1101889261432737844> Пункт - **`2.2`**",
+				title="<:blue_white_dot:1101996010634481666> Пункт - **`2.2`**",
 				colour=0x2f3136
 			)
 
@@ -277,7 +277,7 @@ class Menu(disnake.ui.View):
 
 			# 2.3 - Голсоовые
 			embed10 = disnake.Embed(
-				title="<:white_dot2:1101889261432737844> Пункт - **`2.3`**",
+				title="<:blue_white_dot:1101996010634481666> Пункт - **`2.3`**",
 				colour=0x2f3136
 			)
 
