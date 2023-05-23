@@ -355,7 +355,7 @@ class Rules(commands.Cog):
 				"""
 				> `::` Мы рекомендуем прочитать *правила*, чтобы сервер был **чистым** и **спокойным**.
 				> Так же наш сервер, придерживается к 
-				> <:white:1100864283883081748> **[Discord ToS](https://discord.com/terms)** *и* **[Discord Guildlines](https://discord.com/guidelines)**
+				> - **[Discord ToS](https://discord.com/terms)** *и* **[Discord Guildlines](https://discord.com/guidelines)**
 				""",
 				colour=0x2f3136
 			)
